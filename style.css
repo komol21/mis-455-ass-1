@@ -1,0 +1,137 @@
+/* Importing Google Fonts */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dde2e4;
+    color: #333;
+    line-height: 3.6;
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Content Styling */
+.content {
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Flexbox for about.html */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Grid for history.html */
+.grid-container {
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    
+    column-gap: 30px;
+    row-gap: 50px;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.content img {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional Styling */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Box Model Properties */
+.content img {
+    width: 100%;
+    margin: 20px 0;
+    padding: 2px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Content2 Styling */
+.content2 {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox for Flex-container2 */
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.content2 img {
+    width: 75%;
+    padding: 10px;
+    background-color: #1380b7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+.content2 img:hover{
+    border: 1px solid rgb(45, 152, 98);
+    box-shadow: 4px 5px 3px rgb(176, 172, 172);
+    border-radius: 50%;
+}
+
